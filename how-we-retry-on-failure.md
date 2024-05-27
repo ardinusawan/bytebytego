@@ -25,3 +25,6 @@ Exponential jitter backoff combines exponential backoff with randomness. After e
 
 - Advantages: Offers all the benefits of exponential backoff, with the added advantage of reducing retry collisions even further due to the introduction of jitter.
 - Disadvantages: The randomness can sometimes result in longer than necessary delays, especially if the jitter is significant.
+
+
+Source: https://www.linkedin.com/posts/alexxubyte_systemdesign-coding-interviewtips-activity-7200885434082557954-9N5I?utm_source=combined_share_message&utm_medium=member_desktop
